@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // TypeScript 코드가 컴파일하여 만들어진 JavaScript 코드의 버전을 설정하는 옵션
+    "target": "ESNext",
+    // 변환되는 JavaScript 코드의 모듈 시스템을 설정하는 옵션
+    "module": "ESNext",
+    // 컴파일된 JavaScript 파일의 저장 위치를 설정하는 옵션
+    "outDir": "tsc",
+    // TypeScript 컴파일러가 타입 검사를 얼마나 엄격하게 할지 설정하는 옵션
+    "strict": false,
+    // TypeScript가 각각의 파일을 어떤 모듈로 감지할 것인지 결정하는 옵션
+    "moduleDetection": "force",
+    // 타입 정의 파일의 타입 검사를 생략하는 옵션
+    "skipLibCheck": true
+  },
+  // 컴파일할 TypeScript 파일의 범위와 위치를 지정하는 옵션
+  "include": ["src"]
+}
